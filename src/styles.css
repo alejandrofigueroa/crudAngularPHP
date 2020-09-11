@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: #e1eec3;
+    background: -webkit-repeating-linear-gradient(to right, #f05053, #e1eec3);
+    background: linear-gradient(to right, #f05053, #e1eec3);
+    height: 100vh;
+}
+
+input.ng-invalid{
+    border-left: 5px solid red;
+}
